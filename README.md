@@ -2,13 +2,13 @@
 
 ![Bacteria by filterforge.com](Images/bacteria_by_filterforgedotcom.jpg)
 
-In this assignment, you will build an interactive dashboard to explore the [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/).
+In this practice, I will build an interactive dashboard to explore the [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
 ## Step 1 - Plotly.js
 
-Use Plotly.js to build interactive charts for your dashboard.
+Use Plotly.js to build interactive charts for my dashboard.
 
-* Create a PIE chart that uses data from your samples route (`/samples/<sample>`) to display the top 10 samples.
+* Create a PIE chart that uses data from my samples route (`/samples/<sample>`) to display the top 10 samples.
 
   * Use `sample_values` as the values for the PIE chart
 
@@ -18,7 +18,7 @@ Use Plotly.js to build interactive charts for your dashboard.
 
   ![PIE Chart](Images/pie_chart.png)
 
-* Create a Bubble Chart that uses data from your samples route (`/samples/<sample>`) to display each sample.
+* Create a Bubble Chart that uses data from my samples route (`/samples/<sample>`) to display each sample.
 
   * Use `otu_ids` for the x values
 
@@ -38,28 +38,26 @@ Use Plotly.js to build interactive charts for your dashboard.
 
 * Update all of the plots any time that a new sample is selected.
 
-* You are welcome to create any layout that you would like for your dashboard. An example dashboard page might look something like the following.
+
 
 ![Example Dashboard Page](Images/dashboard_part1.png)
 ![Example Dashboard Page](Images/dashboard_part2.png)
 
 ## Step 2 - Heroku
 
-Deploy your Flask app to Heroku.
+Deploy my Flask app to Heroku.
 
-* You can use the provided sqlite file for the database.
-
-* Ask your Instructor and TAs for help!
+see the website: https://sg-belly-button.herokuapp.com/
 
 - - -
 
-## Advanced Challenge Assignment (Optional)
+## Advanced Challenge Practice (Optional)
 
 The following task is completely optional and is very advanced.
 
 * Adapt the Gauge Chart from <https://plot.ly/javascript/gauge-charts/> to plot the Weekly Washing Frequency obtained from the route `/wfreq/<sample>`
 
-* You will need to modify the example gauge code to account for values ranging from 0 - 9.
+* Need to modify the example gauge code to account for values ranging from 0 - 9.
 
 * Update the chart whenever a new sample is selected
 
@@ -69,22 +67,20 @@ The following task is completely optional and is very advanced.
 
 ## Flask API
 
-Use Flask API starter code to serve the data needed for your plots.
+Use Flask API starter code to serve the data needed for my plots.
 
-* Test your routes by visiting each one in the browser.
+* Test routes by visiting each one in the browser.
 
 - - -
 
 ## Hints
 
-* Don't forget to `pip install -r requirements.txt` before you start your server.
+* Don't forget to `pip install -r requirements.txt` before start the server.
 
-* Use `console.log` inside of your JavaScript code to see what your data looks like at each step.
+* Use `console.log` inside of JavaScript code to see what the data looks like at each step.
 
 * Refer to the [Plotly.js Documentation](https://plot.ly/javascript/) when building the plots.
 
 - - -
 
-### Copyright
 
-Data Boot Camp © 2018. All Rights Reserved.
